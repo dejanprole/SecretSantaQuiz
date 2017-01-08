@@ -57,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
 
         String textEntered = mEditText.getText().toString();
 
-        //Handler mHandler = new Handler();
 
         if ("1435".equals(textEntered)) {
             Toast.makeText(MainActivity.this, "Bravo!", Toast.LENGTH_SHORT ).show();
